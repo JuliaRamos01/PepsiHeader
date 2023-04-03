@@ -8,8 +8,11 @@ box-sizing:border-box;
 }
 `;
 
-export const Container = styled.section`
+export const Background = styled.body`
 background-color: #0261bf;
+`;
+
+export const Container = styled.section`
 height: 100vh;
 `;
 
@@ -69,4 +72,8 @@ button {
     color: #000000;
     font-size: 1.05rem;
 }
+`;
+
+export const ProductsSection = styled.section`
+border: 1px pink solid;
 `;
